@@ -1,0 +1,32 @@
+# Your positions. Edit this file (on GitHub or locally) and the app picks it up on next load.
+# ticker: Yahoo Finance symbol · quantity: shares held · avg_cost: average purchase price in `currency`
+# purchase_fx (optional, USD positions only): EUR/USD rate when you bought, e.g. 1.08.
+#   When set, the EUR P&L is split into "stock move" vs "currency move". Without it, EUR cost is
+#   computed at today's rate and the currency effect is not shown.
+base_currency: EUR
+
+holdings:
+  - ticker: SMR
+    name: NuScale Power
+    quantity: 416
+    avg_cost: 11.78
+    currency: USD
+    theme: SMR developer
+  - ticker: LEU
+    name: Centrus Energy
+    quantity: 8
+    avg_cost: 194.00
+    currency: USD
+    theme: Enrichment / HALEU
+  - ticker: URNU.DE
+    name: Global X Uranium UCITS ETF
+    quantity: 32
+    avg_cost: 25.87
+    currency: EUR
+    theme: Uranium miners ETF
+  - ticker: BHP1.F
+    name: BHP Group
+    quantity: 16
+    avg_cost: 36.00
+    currency: EUR
+    theme: Diversified miner (copper, iron ore, potash)

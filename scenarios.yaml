@@ -1,0 +1,46 @@
+# 12-month bull / base / bear price targets, in each holding's trading currency.
+# These are editable estimates, not advice. Tweak them as the thesis evolves;
+# the Targets tab recomputes upside and portfolio value for each scenario.
+horizon_months: 12
+
+scenarios:
+  SMR:
+    bear:
+      price: 5.00
+      rationale: No firm US plant order within the year, further equity dilution to fund operations, sector de-rating continues.
+    base:
+      price: 11.00
+      rationale: Steady licensing and partner progress (ENTRA1/TVA framework), first binding commercial commitment in sight; trades back toward cost basis.
+    bull:
+      price: 20.00
+      rationale: Firm order for a multi-module plant plus government / hyperscaler power deals trigger a sector re-rating toward prior highs.
+  LEU:
+    bear:
+      price: 110.00
+      rationale: Enrichment expansion delayed or over budget, Russian supply waivers extended, multiple compresses further.
+    base:
+      price: 210.00
+      rationale: Earnings grow on LEU sales and HALEU contracts; ~50x forward earnings as the only US-owned enricher.
+    bull:
+      price: 320.00
+      rationale: Large DOE / utility enrichment contracts and Piketon capacity build-out funded; scarcity premium returns.
+  URNU.DE:
+    bear:
+      price: 17.00
+      rationale: Uranium spot and term prices slide, miners' equity sells off with risk assets.
+    base:
+      price: 25.00
+      rationale: Term price holds firm on utility contracting cycle; miners recover part of this year's drawdown.
+    bull:
+      price: 33.00
+      rationale: Supply deficits (Kazatomprom / Cameco guidance cuts) and reactor restarts push uranium sharply higher.
+  BHP1.F:
+    bear:
+      price: 30.00
+      rationale: China steel demand weakens, iron ore falls; dividend cut.
+    base:
+      price: 39.00
+      rationale: Copper strength offsets iron ore softness; ~4% dividend yield supports the price.
+    bull:
+      price: 45.00
+      rationale: Copper supercycle (electrification, data centres) re-rates BHP as a copper growth story.
